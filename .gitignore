@@ -1,0 +1,8 @@
+*.*[#~]
+upload.sh
+push.sh
+*.pyc
+dist/
+build/
+mygengo_public_key.txt
+mygengo_private_key.txt

@@ -1,0 +1,6 @@
+graft src/
+prune src/subtranslate/.git/
+prune src/subtranslate/translate_subs_doc
+exclude push.sh
+exclude src/subtranslate/mygengo_public_key.txt
+exclude src/subtranslate/mygengo_private_key.txt

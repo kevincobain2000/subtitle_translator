@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9: http://docutils.sourceforge.net/" />
+<title>Subtitle Translator</title>
+<style type="text/css">
+
+/*
+Author: Peter Parente
+Date: 2008/01/22
+Version: 1.0
+Copyright: This stylesheet has been placed in the public domain - free to edit and use for all uses.
+*/
+
+body {
+  font: 100% sans-serif;
+  background: #ffffff;
+  color: black;
+  margin: 2em;
+  padding: 0em 2em;
+}
+
+p.topic-title {
+  font-weight: bold;
+}
+
+table.docinfo {
+  text-align: left;
+  margin: 2em 0em;
+}
+
+a[href] {
+  color: #436976;
+  background-color: transparent;
+}
+
+a.toc-backref {
+  text-decoration: none;
+}
+
+h1 a[href] {
+  color: #003a6b;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a.strong {
+  font-weight: bold;
+}
+
+img {
+  margin: 0;
+  border: 0;
+}
+
+p {
+  margin: 0.5em 0 1em 0;
+  line-height: 1.5em;
+}
+
+p a:visited {
+  color: purple;
+  background-color: transparent;
+}
+
+p a:active {
+  color: red;
+  background-color: transparent;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p img {
+  border: 0;
+  margin: 0;
+}
+
+p.rubric {
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1.title {
+  color: #003a6b;
+  font-size: 250%;
+  margin-bottom: 0em;
+}
+
+h2.subtitle {
+  color: #003a6b;
+  border-bottom: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #555;
+  background-color: transparent;
+  margin: 0em;
+  padding-top: 0.5em;
+}
+
+h1 {
+  font-size: 160%;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #aaa;
+}
+
+h2 {
+  font-size: 140%;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #aaa;
+}
+
+h3 {
+  font-size: 130%;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  font-size: 110%;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+h5 {
+  font-size: 105%;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+h6 {
+  font-size: 100%;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+dt {
+  font-style: italic;
+}
+
+dd {
+  margin-bottom: 1.5em;
+}
+
+div.admonition, div.note, div.tip, div.caution, div.important {
+  margin: 2em 2em;
+  padding: 0em 1em;
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-bottom: 2px solid #555;
+  border-right: 2px solid #555;
+}
+
+div.important {
+  background: transparent url('../images/important.png') 10px 2px no-repeat;
+}
+
+div.caution {
+  background: transparent url('../images/caution.png') 10px 2px no-repeat;
+}
+
+div.note {
+  background: transparent url('../images/note.png') 10px 2px no-repeat;
+}
+
+div.tip {
+  background: transparent url('../images/tip.png') 10px 2px no-repeat;
+}
+
+div.admonition-example {
+  background: transparent url('../images/tip.png') 10px 2px no-repeat;
+}
+
+div.admonition-critical-example {
+  background: transparent url('../images/important.png') 10px 2px no-repeat;
+}
+
+p.admonition-title {
+  font-weight: bold;
+  border-bottom: 1px solid #aaa;
+  padding-left: 30px;
+}
+
+table.docutils {
+  text-align: left;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0em;
+}
+
+table.docutils caption {
+  font-style: italic;
+}
+
+table.docutils td, table.docutils th {
+  padding: 0.25em 0.5em;
+}
+
+table.docutils th {
+  background-color: #dddddd;
+}
+
+div.sidebar {
+  width: 33%;
+  float: right;
+  margin: 0em 2em;
+  padding: 0em 1em;
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-bottom: 2px solid #555;
+  border-right: 2px solid #555;
+}
+
+p.sidebar-title {
+  margin-bottom: 0em;
+  color: #003a6b;
+  border-bottom: 1px solid #aaa;
+  font-weight: bold;
+}
+
+p.sidebar-subtitle {
+  margin-top: 0em;
+  font-style: italic;
+  color: #003a6b;
+}
+</style>
+</head>
+<body>
+<div class="document" id="subtitle-translator">
+<h1 class="title">Subtitle Translator</h1>
+
+<p>Google Translate api doesn't support free translations now. So, this subtitle translator uses <strong>mygengo</strong> and able to translate subtitles using terminal and a mygengo free account to translate subtitles in various supported Langauges. Supported file format is <tt class="docutils literal">srt</tt> in <tt class="docutils literal"><span class="pre">UTF-8</span></tt> Format. This application is written in Python and script <strong>translate_subs</strong> is installed in your main shell.</p>
+<div class="section" id="pre-requisites">
+<h1>Pre-requisites</h1>
+<ol class="arabic simple">
+<li><a class="reference external" href="http://pypi.python.org/pypi/mygengo/1.3.1">mygengo</a></li>
+</ol>
+<p>No need to installed as it is installed automatically as dependencies. However, incase of troubles install mygengo manually</p>
+<ol class="arabic simple" start="2">
+<li>Python 2.6.* or above</li>
+<li><a class="reference external" href="http://mygengo.com">mygengo api registration</a></li>
+</ol>
+</div>
+<div class="section" id="obtain">
+<h1>Obtain</h1>
+<pre class="literal-block">
+git clone git://kevincobain2000&#64;github.com/kevincobain2000/translators.git
+</pre>
+</div>
+<div class="section" id="install">
+<h1>Install</h1>
+<p><tt class="docutils literal">python setup.py install</tt></p>
+</div>
+<div class="section" id="install-keys">
+<h1>Install Keys</h1>
+<blockquote>
+<ol class="arabic simple">
+<li>Register at <tt class="docutils literal">mygengo</tt> and installing <tt class="docutils literal">mygengo python api</tt>.</li>
+<li>Generate public_key and private_key.</li>
+<li>Make a dir in your home directory like this <tt class="docutils literal">mkdir ~/mygengo_keys</tt></li>
+<li>Copy and Paste and save in the files <tt class="docutils literal">~/mygengo_keys/public_key.txt</tt> and <tt class="docutils literal">~/mygengo_keys/private_key.txt</tt>, respectively.</li>
+<li>Save the above text files in home directory. <cite>Note#</cite> Do <tt class="docutils literal">echo $HOME</tt> to find out location of your home directory.</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="usage">
+<h1>Usage</h1>
+<p>Script <tt class="docutils literal">translate_subs</tt> is installed and is called directly.</p>
+<pre class="literal-block">
+1. translate_subs -i input.srt -f english -t japanese
+2. translate_subs -i input.srt -f en -t ja
+3. translate_subs -i input.srt -f Eng -t Jap
+</pre>
+<pre class="doctest-block">
+&gt;&gt;&gt; Output --&gt; Translated file saved to ja-input.srt
+</pre>
+</div>
+<div class="section" id="supported-languages">
+<h1>Supported Languages</h1>
+<pre class="literal-block">
+sv        Swedish
+id        Indonesian
+pt        Portuguese (Europe)
+es-la     Spanish (Latin America)
+ko        Korean
+ar        Arabic
+fr-ca     French (Canada)
+nl        Dutch
+en        English
+ja        Japanese
+es        Spanish (Spain)
+zh        Chinese (Simplified)
+de        German
+fr        French
+ru        Russian
+it        Italian
+pt-br     Portuguese (Brazil)
+</pre>
+<p><cite>Note#</cite> Supported Languages are from English to Target language and vice versa</p>
+</div>
+<div class="section" id="charset">
+<h1>Charset</h1>
+<p><tt class="docutils literal">input.srt</tt> file must be <tt class="docutils literal"><span class="pre">utf-8</span></tt> encoded. To convert to <tt class="docutils literal"><span class="pre">utf-8</span></tt> see <tt class="docutils literal">man iconv</tt></p>
+</div>
+<div class="section" id="help">
+<h1>Help</h1>
+<p><tt class="docutils literal">translate_subs <span class="pre">-h</span></tt></p>
+</div>
+<div class="section" id="contact">
+<h1>Contact</h1>
+<blockquote>
+<ol class="arabic simple">
+<li><a class="reference external" href="http://www.jaist.ac.jp/~s1010205/">Home</a></li>
+<li><a class="reference external" href="http://www.jaist.ac.jp/~s1010205/styled-2/index.html">Contact Form</a></li>
+<li><a class="reference external" href="https://github.com/kevincobain2000/translators">github</a></li>
+<li><tt class="docutils literal">pulkit[at]jaist.ac.jp</tt></li>
+</ol>
+</blockquote>
+</div>
+</div>
+</body>
+</html>
