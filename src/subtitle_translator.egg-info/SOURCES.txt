@@ -1,0 +1,14 @@
+MANIFEST.in
+README
+setup.py
+scripts/translate_subs
+src/subtitle_translator.egg-info/PKG-INFO
+src/subtitle_translator.egg-info/SOURCES.txt
+src/subtitle_translator.egg-info/dependency_links.txt
+src/subtitle_translator.egg-info/requires.txt
+src/subtitle_translator.egg-info/top_level.txt
+src/subtranslate/__init__.py
+src/subtranslate/ja-sample.srt
+src/subtranslate/parser.py
+src/subtranslate/sample.srt
+src/subtranslate/translate_subs.py

@@ -19,7 +19,7 @@ Obtain
 
 ::
 
-  git clone git://kevincobain2000@github.com/kevincobain2000/translators.git
+  git clone git://kevincobain2000@github.com/kevincobain2000/subtitle_translator.git
 
 Install
 -------
@@ -90,7 +90,7 @@ Contact
 
   2. `Contact Form <http://www.jaist.ac.jp/~s1010205/styled-2/index.html>`_
 
-  3. `github <https://github.com/kevincobain2000/translators>`_
+  3. `github <https://github.com/kevincobain2000/subtitle_translator>`_
   
   4. ``pulkit[at]jaist.ac.jp``
  
