@@ -218,3 +218,13 @@ p.sidebar-subtitle {
   font-style: italic;
   color: #003a6b;
 }
+.literal .pre {
+  background-color: lightblue;
+  font-family: lucidatypewriter, "lucida typewriter", sans-serif; }
+
+.literal-block {
+  border: thin solid rgb(180,180,180);
+  font-family: lucidatypewriter, "lucida typewriter", monospace;
+  font-size: 85%;
+  padding: 0.5em; 
+  font-weight: normal; }

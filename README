@@ -12,14 +12,14 @@ Pre-requisites
 
 3. `mygengo api registration <http://mygengo.com>`_
 
-Obtain
-------
+Obtain/Download
+---------------
 
 ::
 
-  1. git clone git://kevincobain2000@github.com/kevincobain2000/subtitle_translator.git
+  git clone git://kevincobain2000@github.com/kevincobain2000/subtitle_translator.git
 
-  2. http://pypi.python.org/pypi/subtitle_translator
+`Download Python Package <http://pypi.python.org/pypi/subtitle_translator>`_
 
 Install
 -------
