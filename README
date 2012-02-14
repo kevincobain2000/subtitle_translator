@@ -6,9 +6,7 @@ Google Translate api doesn't support free translations now. So, this subtitle tr
 Pre-requisites
 --------------
 
-1. `mygengo <http://pypi.python.org/pypi/mygengo/1.3.1>`_ 
-
-No need to installed as it is installed automatically as dependencies. However, incase of troubles install mygengo manually
+1. `mygengo <http://pypi.python.org/pypi/mygengo/1.3.1>`_ No need to installed as it is installed automatically as dependencies. However, incase of troubles install mygengo manually
 
 2. Python 2.6.* or above
 
@@ -19,7 +17,9 @@ Obtain
 
 ::
 
-  git clone git://kevincobain2000@github.com/kevincobain2000/subtitle_translator.git
+  1. git clone git://kevincobain2000@github.com/kevincobain2000/subtitle_translator.git
+
+  2. http://pypi.python.org/pypi/subtitle_translator
 
 Install
 -------
