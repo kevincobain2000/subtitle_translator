@@ -1,6 +1,9 @@
 Subtitle Translator
 ===================
 
+.. sectnum::
+.. contents::
+
 Google Translate api doesn't support free translations now. So, this subtitle translator uses **mygengo** and able to translate subtitles using terminal and a mygengo free account to translate subtitles in various supported Langauges. Supported file format is ``srt`` in ``UTF-8`` Format. This application is written in Python and script **translate_subs** is installed in your main shell.
 
 Pre-requisites
@@ -11,6 +14,11 @@ Pre-requisites
 2. Python 2.6.* or above
 
 3. `mygengo api registration <http://mygengo.com>`_
+
+Documentation
+-------------
+
+`Read the Docs <http://readthedocs.org/docs/subtitle_translator/en/latest/>`_
 
 Obtain/Download
 ---------------
