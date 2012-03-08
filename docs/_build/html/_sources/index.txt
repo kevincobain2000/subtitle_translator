@@ -15,11 +15,6 @@ Pre-requisites
 
 3. `mygengo api registration <http://mygengo.com>`_
 
-Documentation
--------------
-
-`Read the Docs <http://readthedocs.org/docs/subtitle_translator/en/latest/>`_
-
 Obtain/Download
 ---------------
 
