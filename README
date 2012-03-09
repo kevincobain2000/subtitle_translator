@@ -93,11 +93,9 @@ Contact
 
   1. `Home <http://www.jaist.ac.jp/~s1010205/>`_
 
-  2. `Contact Form <http://www.jaist.ac.jp/~s1010205/styled-2/index.html>`_
-
-  3. `github <https://github.com/kevincobain2000/subtitle_translator>`_
+  2. `github <https://github.com/kevincobain2000/subtitle_translator>`_
   
-  4. ``pulkit[at]jaist.ac.jp``
+  3. ``pulkit[at]jaist.ac.jp``
  
 
 .. include:: disqus_jnlp.html.rst
