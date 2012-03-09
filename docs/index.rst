@@ -99,3 +99,5 @@ Contact
   
   4. ``pulkit[at]jaist.ac.jp``
  
+
+.. include:: disqus_jnlp.html.rst
