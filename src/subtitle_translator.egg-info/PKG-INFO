@@ -6,8 +6,13 @@ Home-page: http://www.jaist.ac.jp/~s1010205/
 Author: KATHURIA Pulkit
 Author-email: pulkit@jaist.ac.jp
 License: LICENSE.txt
-Description: Subtitle Translator
+Description: `Back To Home <http://www.jaist.ac.jp/~s1010205/>`_
+        
+        Subtitle Translator
         ===================
+        
+        .. sectnum::
+        .. contents::
         
         Google Translate api doesn't support free translations now. So, this subtitle translator uses **mygengo** and able to translate subtitles using terminal and a mygengo free account to translate subtitles in various supported Langauges. Supported file format is ``srt`` in ``UTF-8`` Format. This application is written in Python and script **translate_subs** is installed in your main shell.
         
@@ -96,12 +101,12 @@ Description: Subtitle Translator
         
         1. `Home <http://www.jaist.ac.jp/~s1010205/>`_
         
-        2. `Contact Form <http://www.jaist.ac.jp/~s1010205/styled-2/index.html>`_
+        2. `github <https://github.com/kevincobain2000/subtitle_translator>`_
         
-        3. `github <https://github.com/kevincobain2000/subtitle_translator>`_
+        3. ``pulkit[at]jaist.ac.jp``
         
-        4. ``pulkit[at]jaist.ac.jp``
         
+        .. include:: disqus_jnlp.html.rst
         
 Platform: UNKNOWN
 Classifier: Natural Language :: Japanese
